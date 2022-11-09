@@ -1,0 +1,13 @@
+GET http://localhost:8080/translator/getEcho
+
+###
+
+POST http://localhost:8080/translator/setPrintableDto
+Accept-Language: ru
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Biba"
+}
